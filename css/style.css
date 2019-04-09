@@ -1,0 +1,39 @@
+.main-menu{
+    display: flex;
+    margin: 50px auto 0px auto;
+    background: black;
+    padding: 0px;
+
+}
+.main-menu-li{
+    
+    color: white;
+    padding: 20px 30px;
+    transition: 0.3s all ease-in-out;
+    list-style: none;
+    cursor: pointer;
+
+}
+.active-li{
+    background-color: rgb(209, 209, 37);
+}
+.content{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.p-content{
+    display: none;
+}
+.active-content{
+    display: block
+}
+
+.main-menu-li:hover{
+    background-color: rgb(209, 209, 37)
+}
+.content{
+    height: 200px;
+    background-color: rgb(209, 209, 37);
+}
+.pp{background: black;}
